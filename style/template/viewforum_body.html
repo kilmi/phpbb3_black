@@ -151,9 +151,11 @@
 				</dt>
 				<dd class="posts">{topicrow.REPLIES} <dfn>{L_REPLIES}</dfn></dd>
 				<dd class="views">{topicrow.VIEWS} <dfn>{L_VIEWS}</dfn></dd>
-				<dd class="lastpost"><span><dfn>{L_LAST_POST}</dfn> <span class="by">{L_POST_BY_AUTHOR}</span> {topicrow.LAST_POST_AUTHOR_FULL}
-					<!-- IF not S_IS_BOT --><a href="{topicrow.U_LAST_POST}">{LAST_POST_IMG}</a> <!-- ENDIF --><br />{topicrow.LAST_POST_TIME}</span>
-				</dd>
+					<dd class="lastpost">
+            <span>{topicrow.LAST_POST_TIME}<br />{topicrow.LAST_POST_AUTHOR_FULL}
+            <!-- IF not S_IS_BOT --><a href="{topicrow.U_LAST_POST}">{LAST_POST_IMG}</a><!-- ENDIF -->
+            </span>
+          </dd>
 			</dl>
 		</li>
 
