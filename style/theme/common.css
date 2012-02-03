@@ -121,6 +121,11 @@ body.simple {
 	height: 400px;
 }
 
+.phpbb .wrap-top-top {
+  background-color: #000000;
+  background-image: url("{T_THEME_PATH}/images/bg-top_rh.jpg");
+}
+
 .phpbb .content-wrapper {
 	margin: -800px auto 0;
 	padding: 0 20px;
